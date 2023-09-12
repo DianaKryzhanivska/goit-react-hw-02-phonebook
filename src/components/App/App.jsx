@@ -32,7 +32,7 @@ export class App extends Component {
   };
 
   updateFilter = event => {
-    this.setState({ filter: event.target.value.trim() });
+    this.setState({ filter: event.target.value });
   };
 
   getAvailableContacts = () => {
